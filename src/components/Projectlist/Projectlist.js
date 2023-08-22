@@ -6,10 +6,9 @@ import AskLogo from '../../Assets/AskLogo.png'
 
 function Projectlist() {
   return (
-    <div className="projectbackground">
-      <Container fluid className="project-section">
-        
-          <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+    <div className="projectbackground" style={{height:'100%'}}>
+      <Container className="project-section" style={{height: '100%', display: 'flex'}} >
+          <Row style={{ paddingBottom: "10px", height: '100%'}}>
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={AskLogo}

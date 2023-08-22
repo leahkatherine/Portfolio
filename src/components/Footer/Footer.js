@@ -4,7 +4,7 @@ import "../../pages/style.css";
 
 const Footer = () => {
     return (
-    <Footer className='site-footer-background'>
+    <div className='site-footer-background'>
             <div>
                 <p className="copyright">
                 © Copyright 2023
@@ -12,7 +12,7 @@ const Footer = () => {
                 Built by <span>Leah Anestos</span>
                 </p>
             </div>
-      </Footer>
+      </div>
     );
   }
   
