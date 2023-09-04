@@ -27,7 +27,7 @@ function linkTreeClone () {
     
       return (
         <div className="">
-            <img src={headShot} className="headShot w-100 h-100 flex justify-center items-center" alt="logo" />
+            <img src={headShot}  alt="headShot" />
             <ul className="flex flex-col w-full">
           {
             links.map((link, index) => (

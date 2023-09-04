@@ -85,8 +85,10 @@ function Header() {
           <Button
             onClick={() => {
               window.open(
-                "https://docs.google.com/document/d/e/2PACX-1vRtKU3UHNOopjys0ZHB-yu4E9e1cUyXXvcTtYGg-zsYl0AUAKbdInH1M9D17xuYOWZd1hUb69j001o-/pub"
+                'https://docs.google.com/document/d/1Z9Rb8FIM8bopqltWUx5AQlZidd_c_QMFGi5sG6ZoRm8/edit?usp=sharing',
+
               );
+            
             }}
             className="resumebtn"
           >

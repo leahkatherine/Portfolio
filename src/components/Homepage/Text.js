@@ -11,7 +11,7 @@ function Text() {
         ],
         autoStart: true,
         loop: true,
-        deleteSpeed: 70,
+        deleteSpeed: 150,
       }}
     />
   )
