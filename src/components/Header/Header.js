@@ -85,7 +85,7 @@ function Header() {
           <Button
             onClick={() => {
               window.open(
-                'https://docs.google.com/document/d/1Z9Rb8FIM8bopqltWUx5AQlZidd_c_QMFGi5sG6ZoRm8/edit?usp=sharing',
+                'https://docs.google.com/document/u/1/d/e/2PACX-1vQOIE7SIBV4y0PKrywiXCNcRmlIc-CWKtcJFlWub244zKz5zvBZgyoDdvmLMtZg-xKI9UreiSb-MDDM/pub',
 
               );
             
