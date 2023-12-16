@@ -1,11 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
-
 
 /* Header style */
 
@@ -90,7 +87,7 @@
   font-weight: 500 !important;
   padding-right: 2rem !important;
   padding-left: 1rem !important;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 .nav-link:hover {
@@ -153,7 +150,6 @@
   );
 }
 
-
 /* Homepage style */
 
 .homepagebackground {
@@ -184,7 +180,6 @@
   text-align: center;
 }
 
-
 .Typewriter__wrapper {
   font-size: 2em !important;
   color: #191919 !important;
@@ -197,6 +192,13 @@
   color: #191919 !important;
 }
 
+.type-writer {
+  color: #191919 !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px !important;
+  margin-top: -30px;
+  position: absolute;
+}
 
 .nametext {
   font-size: 2em !important;
@@ -237,7 +239,7 @@
     height: 100%;
   }
   .grid-container {
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr;
   }
   .row {
     padding-top: 50px;
@@ -249,10 +251,6 @@
   .Typewriter__cursor {
     font-size: 2.2em !important;
   }
-
-
-
-
 }
 
 /* Aboutpage style */
@@ -301,16 +299,16 @@
 }
 .aboutdetails {
   font-size: 1.1em !important;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 .skilllist li {
   letter-spacing: 1px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 .skilllist {
   font-weight: 600;
   list-style-type: none;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 .skilllist li:hover {
   transform: scale(1.05);
@@ -322,11 +320,7 @@
   max-width: 500px;
   height: 350px;
   background-image: url(../Assets/headShot.png);
-
-
 }
-
-
 
 @media (max-width: 767px) {
   .aboutpagebackground {
@@ -357,8 +351,7 @@
 .project-section {
   position: relative !important;
   padding-top: 10px !important;
-  display:flex;
-  
+  display: flex;
 }
 .project-card {
   padding-top: 20px;
@@ -368,8 +361,8 @@
   height: auto !important;
   display: flex;
 }
-.card-text{
-  font-family: 'Poppins';
+.card-text {
+  font-family: "Poppins";
 }
 .project-card-view {
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
@@ -400,7 +393,7 @@
   justify-content: center;
   font-size: 18px;
   letter-spacing: 1px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 .btn-primary {
@@ -418,7 +411,6 @@
   outline: none !important;
   box-shadow: none !important;
 }
-
 
 @media (max-width: 767px) {
   .project-section {
@@ -453,7 +445,7 @@
   font-size: 16px;
   letter-spacing: 1px;
   padding-bottom: 1rem;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 .contactbtn {
   display: block;
@@ -468,13 +460,12 @@
   background-color: rgba(51, 51, 51, 0.2);
 }
 .copyright {
-  position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
   text-align: center;
   font-size: 12px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 .copyright span {
   font-weight: 700;

@@ -4,6 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link, NavLink } from "react-router-dom";
 import "../../pages/style.css";
+import Pdf from "../../Assets/AnestosResume.pdf";
 
 function Header() {
   const [expand, updateExpanded] = useState(false);
@@ -85,7 +86,8 @@ function Header() {
           <Button
             onClick={() => {
               window.open(
-                'https://docs.google.com/document/u/1/d/e/2PACX-1vQOIE7SIBV4y0PKrywiXCNcRmlIc-CWKtcJFlWub244zKz5zvBZgyoDdvmLMtZg-xKI9UreiSb-MDDM/pub',
+                Pdf,
+                "_blank"
 
               );
             

@@ -7,11 +7,13 @@ import headShot from '../../Assets/headShot.png';
 
 function Home() {
   return (
+    
     <div className='homepagebackground'>
+
       <Col md={7} className='text-center'>
         <div className='center-content'>
           <img src={headShot} alt='headshot'/>
-            <Text />
+          <Text />
         </div>
       </Col>
     </div>
