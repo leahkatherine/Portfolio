@@ -26,9 +26,10 @@ function Aboutpage() {
               am looking for full time, partime postiions, and internships. I am
               open to all opportunities including negotiating irregular hours. 
             </p>
-            <ul className="skilllist">
+            <div>
               <Row>
-                <h3>Skills</h3>
+                <br />
+                <ul className="skilllist">
                 <Col md={7}>
                   <li>HTML/CSS/JavaScript</li>
                   <li>Bootsrap</li>
@@ -43,8 +44,9 @@ function Aboutpage() {
                   <li>Experience with Google Cloud</li>
                   <li>Learning: Next.js & TypeScript</li>
                 </Col>
-              </Row>
             </ul>
+            </Row>
+            </div>
           </Col>
         </Row>
       </Container>

@@ -183,7 +183,7 @@
 
 .Typewriter__wrapper {
   font-size: 2em !important;
-  text-shadow: 1px 2px 2px white;
+  text-shadow: 1px 1px 1px white;
   color: #ffffff !important;
   font-weight: 600 !important;
   letter-spacing: 1px !important;
@@ -281,7 +281,8 @@
 }
 .aboutmetext {
   font-size: 2em !important;
-  color: #191919 !important;
+  color: white !important;
+  text-shadow: 1px 1px 1px black;
   font-weight: 600 !important;
   letter-spacing: 1px !important;
 }
@@ -302,20 +303,29 @@
 .aboutdetails {
   font-size: 1.1em !important;
   font-family: "Poppins";
+  color: white !important;
+  text-shadow: 1px 1px 1px black;
 }
 .skilllist li {
   letter-spacing: 1px;
   font-family: "Poppins";
+  color: white !important;
+  text-shadow: 1px 1px 1px #4a4a4a;
 }
 .skilllist {
-  font-weight: 600;
+  font-weight: 900;
   list-style-type: none;
   font-family: "Poppins";
+  color: white !important;
+  text-shadow: 1px 1px 1px #4a4a4a;
 }
-.skilllist li:hover {
-  transform: scale(1.05);
-  transition: 5ms;
-  color: #e8e8e8;
+
+.h3 {
+  font-weight: 900;
+  list-style-type: none;
+  font-family: "Poppins";
+  color: white !important;
+  text-shadow: 1px 1px 1px #4a4a4a;
 }
 
 .headShot {
