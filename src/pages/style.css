@@ -82,6 +82,7 @@
 
 .nav-link {
   color: white !important;
+  text-shadow: 1px 1px 1px #4a4a4a;
   font-size: 16px !important;
   letter-spacing: 1px;
   font-weight: 500 !important;
@@ -182,18 +183,19 @@
 
 .Typewriter__wrapper {
   font-size: 2em !important;
-  color: #191919 !important;
+  text-shadow: 1px 2px 2px white;
+  color: #ffffff !important;
   font-weight: 600 !important;
   letter-spacing: 1px !important;
   position: right;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #191919 !important;
+  color: #ffffff !important;
 }
 
 .type-writer {
-  color: #191919 !important;
+  color: #f4f4f5 !important;
   font-weight: 600 !important;
   letter-spacing: 1px !important;
   margin-top: -30px;
