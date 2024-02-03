@@ -12,40 +12,40 @@ function Aboutpage() {
             <br />
             <br />
             <p className="aboutdetails">
-              A little about me, since your here! I have been in the
-              service/customer service industry since I graduated high school in
-              2015. All the while, I have been searching for my next thing, my
-              new passion. I tried feeding my drive to learn & strong curiosity,
-              with climbing the corporate ladder within the hospitality industry
-              from Server, to the highest level of management within the
-              establishment and field, to where I left off: planning upscale
-              hospitality events in a leadership position. I'm pleased to share that in 2023, I switched my career to full stack web development.
-               I completed a full stack bootcamp course with
-              NuCamp in October, and I am now looking to get my foot in the door
-              with a company that will allow me to grow and learn even more. As a Junior Developer, I
-              am looking for full time, partime postiions, and internships. I am
-              open to all opportunities including negotiating irregular hours. 
+              I'm pleased to share that in 2023, I switched my career out of
+              Tourism and Hospitality, and into my focus on Web Development. I
+              completed a full stack bootcamp course with NuCamp in October, and
+              I am now looking for a frontend position. Although my backend
+              skills currently limited, I am actively learning with postgreSQL,
+              and have been working on nx projects to help reinforce the
+              structure of an enterprise. I am a quick learner, and I truely
+              believe theres a solution to any problem if you look hard enough.
+              <br />
+              As a Junior Developer, let me show you have converted my drive for
+              success from my previous career, into a passion and love for
+              challenges and excellence with software engineering. and how I can
+              be a valuable asset to your team.
             </p>
             <div>
               <Row>
                 <br />
                 <ul className="skilllist">
-                <Col md={7}>
-                  <li>HTML/CSS/JavaScript</li>
-                  <li>Bootsrap</li>
-                  <li>React</li>
-                  <li>React Native</li>
-                  <li>Node.js</li>
-                </Col>
-                <Col md={5}>
-                  <li>Express.js</li>
-                  <li>MongoDB</li>
-                  <li>Experience with Git/Github</li>
-                  <li>Experience with Google Cloud</li>
-                  <li>Learning: Next.js & TypeScript</li>
-                </Col>
-            </ul>
-            </Row>
+                  <Col md={7}>
+                    <li>HTML/CSS/JavaScript</li>
+                    <li>Bootsrap</li>
+                    <li>React</li>
+                    <li>React Native</li>
+                    <li>Node.js</li>
+                  </Col>
+                  <Col md={5}>
+                    <li>Express.js</li>
+                    <li>MongoDB</li>
+                    <li>Docker</li>
+                    <li>Experience with Google Cloud</li>
+                    <li>Learning: Building an Nx monorepo with TypeScript</li>
+                  </Col>
+                </ul>
+              </Row>
             </div>
           </Col>
         </Row>

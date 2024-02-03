@@ -3,22 +3,18 @@ import "../../pages/style.css";
 import { Container } from "react-bootstrap";
 import LinktreeClone from "./LinkTreeClone";
 
-
 function Contactpage() {
   return (
-    
     <div className="contactbackground">
       <Container>
-      
-
-        <LinktreeClone/>
+        <LinktreeClone />
         <span></span>
-        <p className="copyright">
-          © Copyright 2023
-          <hr />
-           Built by <span>Leah Anestos</span>
-        </p>
       </Container>
+      <p className="copyright">
+        © Copyright 2023
+        <hr />
+        Built by <span>Leah Anestos</span>
+      </p>
     </div>
   );
 }
