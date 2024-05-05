@@ -4,7 +4,6 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link, NavLink } from "react-router-dom";
 import "../../pages/style.css";
-import Pdf from "../../Assets/AnestosResume.pdf";
 
 function Header() {
   const [expand, updateExpanded] = useState(false);
@@ -86,11 +85,8 @@ function Header() {
           <Button
             onClick={() => {
               window.open(
-                Pdf,
-                "_blank"
-
+                "https://www.canva.com/design/DAGEIiGf4cU/fVO9ghGL4_38ad8ojUyteA/view?utm_content=DAGEIiGf4cU&utm_campaign=designshare&utm_medium=link&utm_source=editor"
               );
-            
             }}
             className="resumebtn"
           >

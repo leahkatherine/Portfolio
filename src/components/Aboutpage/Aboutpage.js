@@ -23,15 +23,18 @@ function Aboutpage() {
               <br />
               As a Junior Developer, let me show you have converted my drive for
               success from my previous career, into a passion and love for
-              challenges and excellence with software engineering. and how I can
-              be a valuable asset to your team.
+              challenges and excellence with software engineering. If provided
+              the oppertunity, I am confident I can be a valuable asset to your
+              team.
             </p>
             <div>
               <Row>
                 <br />
                 <ul className="skilllist">
                   <Col md={7}>
-                    <li>HTML/CSS/JavaScript</li>
+                    <li>HTML/CSS</li>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
                     <li>Bootsrap</li>
                     <li>React</li>
                     <li>React Native</li>
@@ -42,7 +45,7 @@ function Aboutpage() {
                     <li>MongoDB</li>
                     <li>Docker</li>
                     <li>Experience with Google Cloud</li>
-                    <li>Learning: Building an Nx monorepo with TypeScript</li>
+                    <li>Learning: Building an Nx monorepo</li>
                   </Col>
                 </ul>
               </Row>
