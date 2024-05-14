@@ -11,7 +11,7 @@ function Contactpage() {
         <span></span>
       </Container>
       <p className="copyright">
-        © Copyright 2023
+        © Copyright 2024
         <hr />
         Built by <span>Leah Anestos</span>
       </p>

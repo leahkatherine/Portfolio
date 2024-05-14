@@ -3,6 +3,7 @@ import { Button } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link, NavLink } from "react-router-dom";
+import pdf from "../../Assets/junior.pdf";
 import "../../pages/style.css";
 
 function Header() {
@@ -85,7 +86,8 @@ function Header() {
           <Button
             onClick={() => {
               window.open(
-                "https://www.canva.com/design/DAGEIiGf4cU/fVO9ghGL4_38ad8ojUyteA/view?utm_content=DAGEIiGf4cU&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+                pdf,
+                "_blank" // <- This is what makes it open in a new window.
               );
             }}
             className="resumebtn"
